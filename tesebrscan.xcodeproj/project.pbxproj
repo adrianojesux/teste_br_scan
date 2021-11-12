@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E028690DF67DB2B8D5BE805 /* Pods_tesebrscan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6355477230AC1D980798DE52 /* Pods_tesebrscan.framework */; };
+		EE944ECB273E9FE600DFCD1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE944ECA273E9FE600DFCD1E /* AppDelegate.m */; };
+		EE944ECE273E9FE600DFCD1E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE944ECD273E9FE600DFCD1E /* SceneDelegate.m */; };
+		EE944ED1273E9FE600DFCD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE944ED0273E9FE600DFCD1E /* ViewController.m */; };
+		EE944ED4273E9FE600DFCD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE944ED2273E9FE600DFCD1E /* Main.storyboard */; };
+		EE944ED6273E9FE700DFCD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE944ED5273E9FE700DFCD1E /* Assets.xcassets */; };
+		EE944ED9273E9FE700DFCD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE944ED7273E9FE700DFCD1E /* LaunchScreen.storyboard */; };
+		EE944EDC273E9FE800DFCD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE944EDB273E9FE800DFCD1E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6355477230AC1D980798DE52 /* Pods_tesebrscan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesebrscan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF4F85543C6BEC3A09BE5A5 /* Pods-tesebrscan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesebrscan.release.xcconfig"; path = "Target Support Files/Pods-tesebrscan/Pods-tesebrscan.release.xcconfig"; sourceTree = "<group>"; };
+		C18F7A2F52F8CD6B96276C0E /* Pods-tesebrscan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesebrscan.debug.xcconfig"; path = "Target Support Files/Pods-tesebrscan/Pods-tesebrscan.debug.xcconfig"; sourceTree = "<group>"; };
+		EE944EC6273E9FE600DFCD1E /* tesebrscan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesebrscan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE944EC9273E9FE600DFCD1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE944ECA273E9FE600DFCD1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE944ECC273E9FE600DFCD1E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EE944ECD273E9FE600DFCD1E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EE944ECF273E9FE600DFCD1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE944ED0273E9FE600DFCD1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE944ED3273E9FE600DFCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE944ED5273E9FE700DFCD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE944ED8273E9FE700DFCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE944EDA273E9FE700DFCD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE944EDB273E9FE800DFCD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE944EC3273E9FE600DFCD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E028690DF67DB2B8D5BE805 /* Pods_tesebrscan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55E68F0E298EA28AD75549E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18F7A2F52F8CD6B96276C0E /* Pods-tesebrscan.debug.xcconfig */,
+				BBF4F85543C6BEC3A09BE5A5 /* Pods-tesebrscan.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9456259592B26F296BF5B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6355477230AC1D980798DE52 /* Pods_tesebrscan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE944EBD273E9FE600DFCD1E = {
+			isa = PBXGroup;
+			children = (
+				EE944EEA273EA3FA00DFCD1E /* libs */,
+				EE944EC8273E9FE600DFCD1E /* tesebrscan */,
+				EE944EC7273E9FE600DFCD1E /* Products */,
+				B55E68F0E298EA28AD75549E /* Pods */,
+				D9456259592B26F296BF5B37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE944EC7273E9FE600DFCD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE944EC6273E9FE600DFCD1E /* tesebrscan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE944EC8273E9FE600DFCD1E /* tesebrscan */ = {
+			isa = PBXGroup;
+			children = (
+				EE944EC9273E9FE600DFCD1E /* AppDelegate.h */,
+				EE944ECA273E9FE600DFCD1E /* AppDelegate.m */,
+				EE944ECC273E9FE600DFCD1E /* SceneDelegate.h */,
+				EE944ECD273E9FE600DFCD1E /* SceneDelegate.m */,
+				EE944ECF273E9FE600DFCD1E /* ViewController.h */,
+				EE944ED0273E9FE600DFCD1E /* ViewController.m */,
+				EE944ED2273E9FE600DFCD1E /* Main.storyboard */,
+				EE944ED5273E9FE700DFCD1E /* Assets.xcassets */,
+				EE944ED7273E9FE700DFCD1E /* LaunchScreen.storyboard */,
+				EE944EDA273E9FE700DFCD1E /* Info.plist */,
+				EE944EDB273E9FE800DFCD1E /* main.m */,
+			);
+			path = tesebrscan;
+			sourceTree = "<group>";
+		};
+		EE944EEA273EA3FA00DFCD1E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE944EC5273E9FE600DFCD1E /* tesebrscan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE944EDF273E9FE800DFCD1E /* Build configuration list for PBXNativeTarget "tesebrscan" */;
+			buildPhases = (
+				8D2AF4F6537977057B2F6084 /* [CP] Check Pods Manifest.lock */,
+				EE944EC2273E9FE600DFCD1E /* Sources */,
+				EE944EC3273E9FE600DFCD1E /* Frameworks */,
+				EE944EC4273E9FE600DFCD1E /* Resources */,
+				17F65D9DCED67F1FC23387D9 /* [CP] Embed Pods Frameworks */,
+				57ED4D968CB16917648ACE4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tesebrscan;
+			productName = tesebrscan;
+			productReference = EE944EC6273E9FE600DFCD1E /* tesebrscan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE944EBE273E9FE600DFCD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE944EC5273E9FE600DFCD1E = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = EE944EC1273E9FE600DFCD1E /* Build configuration list for PBXProject "tesebrscan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE944EBD273E9FE600DFCD1E;
+			productRefGroup = EE944EC7273E9FE600DFCD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE944EC5273E9FE600DFCD1E /* tesebrscan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE944EC4273E9FE600DFCD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944ED9273E9FE700DFCD1E /* LaunchScreen.storyboard in Resources */,
+				EE944ED6273E9FE700DFCD1E /* Assets.xcassets in Resources */,
+				EE944ED4273E9FE600DFCD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F65D9DCED67F1FC23387D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57ED4D968CB16917648ACE4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tesebrscan/Pods-tesebrscan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2AF4F6537977057B2F6084 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesebrscan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE944EC2273E9FE600DFCD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944ED1273E9FE600DFCD1E /* ViewController.m in Sources */,
+				EE944ECB273E9FE600DFCD1E /* AppDelegate.m in Sources */,
+				EE944EDC273E9FE800DFCD1E /* main.m in Sources */,
+				EE944ECE273E9FE600DFCD1E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE944ED2273E9FE600DFCD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE944ED3273E9FE600DFCD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE944ED7273E9FE700DFCD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE944ED8273E9FE700DFCD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE944EDD273E9FE800DFCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE944EDE273E9FE800DFCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE944EE0273E9FE800DFCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18F7A2F52F8CD6B96276C0E /* Pods-tesebrscan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHAP8347U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tesebrscan/lib",
+				);
+				INFOPLIST_FILE = tesebrscan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.testebrscan.tesebrscan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE944EE1273E9FE800DFCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF4F85543C6BEC3A09BE5A5 /* Pods-tesebrscan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHAP8347U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tesebrscan/lib",
+				);
+				INFOPLIST_FILE = tesebrscan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.testebrscan.tesebrscan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE944EC1273E9FE600DFCD1E /* Build configuration list for PBXProject "tesebrscan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944EDD273E9FE800DFCD1E /* Debug */,
+				EE944EDE273E9FE800DFCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE944EDF273E9FE800DFCD1E /* Build configuration list for PBXNativeTarget "tesebrscan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944EE0273E9FE800DFCD1E /* Debug */,
+				EE944EE1273E9FE800DFCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE944EBE273E9FE600DFCD1E /* Project object */;
+}
